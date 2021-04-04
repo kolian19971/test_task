@@ -1,0 +1,116 @@
+@import "layout.scss";
+
+.loginArea{
+  text-align: center;
+
+  padding-top: 160px;
+
+  height: 100vh;
+
+  .content{
+    background: #ffffff;
+    min-width: 400px;
+
+    padding: 20px;
+    display: inline-block;
+    .logo{
+      .image{
+        font-size: 0;
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background: #7b7a7a;
+        border-radius: 100px;
+        line-height: 100px;
+        margin-bottom: 20px;
+        img{
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
+      .title{
+        text-transform: uppercase;
+        color: #555555;
+        font-family: "Merriweather Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+
+
+    }
+
+    form{
+      .inputGroup{
+        margin-bottom: 20px;
+        text-align: left;
+
+        label{
+          display: block;
+          font-family: "Noto Sans", sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          color: #555555;
+          margin-bottom: 10px;
+        }
+
+          .invalid-feedback{
+              color: #ff0000;
+              padding-top: 5px;
+              display: block;
+              font-family: "Noto Sans", sans-serif;
+              font-size: 12px;
+              font-weight: 400;
+          }
+
+
+        input{
+          box-sizing: border-box;
+          font-family: "Noto Sans", sans-serif;
+          font-size: 12px;
+          font-weight: 400;
+          color: #b1b2b2;
+          display: block;
+            height: 30px;
+          width: 100%;
+          padding: 0 10px;
+          outline: none;
+          border: 1px solid #c0b6a6;
+
+          @include placeholder {
+            color: #b1b2b2;
+          }
+        }
+      }
+
+      button{
+        &.submit{
+          transition: 0.3s;
+          font-family: "Noto Sans", sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+          color: #ffffff;
+          text-transform: uppercase;
+          background: #b74c1b;
+          height: 30px;
+          line-height: 30px;
+          padding: 0 25px;
+          border-radius: 5px;
+          display: inline-block;
+          text-decoration: none;
+          border: none;
+          outline: none;
+          cursor: pointer;
+
+          &:hover{
+            transition: 0.3s;
+            background: #a14016;
+          }
+
+        }
+      }
+
+    }
+
+  }
+}

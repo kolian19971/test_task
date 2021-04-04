@@ -1,0 +1,115 @@
+@import "layout.scss";
+
+.adminArea{
+  .content{
+    .items{
+      font-size: 0;
+      padding-top: 60px;
+      height: 100vh;
+      .item{
+        display: inline-block;
+        vertical-align: top;
+        width: 29%;
+        margin-right: 6.5%;
+        &:nth-child(3n+3){
+          margin-right: 0;
+        }
+
+
+        .image{
+          text-align: center;
+          margin-bottom: 20px;
+        }
+
+        a{
+          &.btn{
+            transition: 0.3s;
+            display: block;
+            width: 100%;
+            font-family: "Noto Sans", sans-serif;
+            font-size: 18px;
+            color: #ffffff;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            border-radius: 2px;
+
+            &.green{
+              background: #176d37;
+              &:hover{
+                transition: 0.3s;
+                background: #0f4524;
+              }
+
+            }
+
+            &.blue{
+              background: #2e9897;
+              &:hover{
+                transition: 0.3s;
+                background: #267a79;
+              }
+            }
+
+            &.brown{
+              background: #ba491e;
+              &:hover{
+                transition: 0.3s;
+                background: #a7491e;
+              }
+            }
+
+
+          }
+
+        }
+
+      }
+
+    }
+  }
+}
+
+.popup{
+    max-width: 500px;
+
+    form{
+
+        .file{
+            margin-bottom: 20px;
+        }
+
+
+        button{
+            &.submit{
+                transition: 0.3s;
+                font-family: "Noto Sans", sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                color: #ffffff;
+                text-transform: uppercase;
+                background: #b74c1b;
+                height: 30px;
+                line-height: 30px;
+                padding: 0 25px;
+                border-radius: 5px;
+                display: inline-block;
+                text-decoration: none;
+                border: none;
+                outline: none;
+                cursor: pointer;
+
+                &:hover{
+                    transition: 0.3s;
+                    background: #a14016;
+                }
+
+            }
+        }
+    }
+
+
+}
+

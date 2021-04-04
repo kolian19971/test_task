@@ -1,0 +1,19 @@
+;Name;City;State;ZIP;Coord 1;Coord 2
+1;Administration Office;Sacramento;CA;94203;38.5816667;-121.4933333
+2;Chief of Staff Office;Oakland;CA;94577;37.8044444;-122.2697222
+3;Budget and Planning Dep.;Paradise;NV;89074;36.0972222;-115.1458333
+4;Central Legal Advising Dep.;Reno;NV;89433;39.5297222;-119.8127778
+5;Data Research Central Office;Portland;OR;97035;45.5236111;-122.675
+6;Public Affairs center;Salem;OR;97301;44.9430556;-123.0338889
+7;Maintenance Dep.;Albany;NY;12084;42.6525;-73.7566667
+8;Production Department;Rotterdam;NY;12303;42.7869444;-73.9713889
+9;Information Technology Dep.;Springfield;MA;1020;42.1013889;-72.5902778
+10;Research and Development Dep.;Boston;MA;1841;42.3583333;-71.0602778
+11;Quality Assurance Dep.;Gorham;ME;4038;43.6794444;-70.4447222
+12;Art and Design Office;Sanford;ME;3906;43.4391667;-70.7747222
+13;Video and Animation Dep.;Davenport;IA;52722;41.5236111;-90.5775
+14;Office of Audit and Compliance;Waterloo;IA;50701;42.4927778;-92.3427778
+15;Office of Design and Construction;Yankton;SD;57078;42.8711111;-97.3969444
+16;Office of Technology Licensing;Pierre;SD;57501;44.3683333;-100.3505556
+17;Office of International Programs;Lincoln;NE;68501;40.8;-96.6666667
+18;Office of Research and Project Management;Omaha;NE;68007;41.2586111;-95.9375
